@@ -6,8 +6,8 @@ permalink: Empty_set
 
 # Definition
 
-The empty set (denoted $\\emptyset$ or $\\varnothing$) is the only set
-$S$ such that $\\neg\\exists a(a\\in S)$. It contains absolutely no
+The empty set (denoted $\emptyset$ or $\varnothing$) is the only set
+$S$ such that $\neg\exists a(a\in S)$. It contains absolutely no
 elements, and has cardinality 0. It is often thought of to be the only
 <a href="index.php?title=Urelement&amp;action=edit&amp;redlink=1" class="new" title="Urelement (page does not exist)">urelement</a>
 (this holds up in $V$), and is *increadibly* important as a result. It
@@ -26,15 +26,15 @@ every one of the following:
 
 ## As An Ordinal
 
-The Von Neumann ordinal $\\varnothing$ is 0, and is the only ordinal
-equivalent to it's own rank, other than $V\_1=1=\\{\\varnothing\\}$ and
-$V\_2=2=\\{\\varnothing,\\{\\varnothing\\}\\}$. There is some debate
+The Von Neumann ordinal $\varnothing$ is 0, and is the only ordinal
+equivalent to it's own rank, other than $V_1=1=\{\varnothing\}$ and
+$V_2=2=\{\varnothing,\{\varnothing\}\}$. There is some debate
 whether or not it is a limit ordinal.
 
-## As a Function\\Relation
+## As a Function\Relation
 
 The empty function is relatively uninteresting. It's domain and range
-are both $\\varnothing$ (and thus it is a bijective function). For this
+are both $\varnothing$ (and thus it is a bijective function). For this
 reason it is often considered trivial. However, the empty relation has
 many, many properties that could only be attributed to itself. It is the
 only relation that is all of the following:

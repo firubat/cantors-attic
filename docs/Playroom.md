@@ -64,9 +64,9 @@ In the twentieth century philosophical literature, the puzzles and
 paradoxes continue. Take Thomson's lamp (Thomson 1954), for example,
 which is on for $1/2$ minute, off for $1/4$ minute, on for $1/8$ minute,
 and so on. After one minute (the sum of the series
-$1/2+1/4+1/8+\\cdots$), is it on or off? The literature is full of
-answers. Another toy example is the super-$\\pi$ machine, which writes
-out the successive digits of $\\pi$ on a tape, the first in $1/2$
+$1/2+1/4+1/8+\cdots$), is it on or off? The literature is full of
+answers. Another toy example is the super-$\pi$ machine, which writes
+out the successive digits of $\pi$ on a tape, the first in $1/2$
 minute, the next in $1/4$ minute, and so on, so that all the digits are
 written in a finite amount of time. Because there can be no last or
 final step in such a process, Chihara (1965) has criticized the
@@ -75,7 +75,7 @@ completion of such an algorithm as unintelligible.
 ## Deal with the devil
 
 In a more entertaining example, let's suppose that you have infinitely
-many one dollar bills (numbered 1, 3, 5, $\\ldots$) and upon entering a
+many one dollar bills (numbered 1, 3, 5, $\ldots$) and upon entering a
 nefarious underground bar, you come upon the Devil sitting at a table
 piled high with money. You sit down, and the Devil explains to you that
 he has an attachment to your particular bills and is willing to pay you
@@ -103,7 +103,7 @@ next transaction he buys from you bill number 2 (which he had just paid
 you) and gives you bills numbered 6 and 8. Next, he buys bill number 3
 from you with bills 10 and 12, and so on. When all the exchanges are
 completed, what do you discover? You have no money left at all! The
-reason is that at the $n^{\\rm th}$ exchange, the Devil took from you
+reason is that at the $n^{\rm th}$ exchange, the Devil took from you
 bill number $n$, and never subsequently returned it to you. So while it
 seemed as though you were becoming no poorer with each exchange, in fact
 the final destination of every dollar bill in the transaction is under

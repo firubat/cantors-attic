@@ -26,7 +26,7 @@ Equivalently, a set $A$ is transitive if and only if:
 ## Properties of Transitive Sets
 
 If $A$ is transitive, then if $x$ and $A$ are connected somehow by
-membership (that is, $x \\in y \\in z \\ldots \\in A$), then $x \\in A$.
+membership (that is, $x \in y \in z \ldots \in A$), then $x \in A$.
 
 The intersection of two transitive sets is transitive.
 

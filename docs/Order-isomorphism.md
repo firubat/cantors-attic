@@ -18,14 +18,14 @@ An order isomorphism is a particular type of isomorphism that preserves
 order.
 
 We say that $f$ creates an isomorphism between two relational systems $(
-A , &lt;\_A )$ and $( B , &lt;\_B )$ if and only if $f$ creates a
-bijection between $A$ and $B$ and for all $x$ and $y$ in $A$, $x &lt;\_A
-y \\leftrightarrow f(x) &lt;\_B f(y)$
+A , <_A )$ and $( B , <_B )$ if and only if $f$ creates a
+bijection between $A$ and $B$ and for all $x$ and $y$ in $A$, $x <_A
+y \leftrightarrow f(x) <_B f(y)$
 
 ## Properties
 
-Order-isomorphisms preserve ordering, so if $( A , &lt;\_A )$ is
-strictly ordered, founded, or well-ordered, then $( B , &lt;\_B )$ will
+Order-isomorphisms preserve ordering, so if $( A , <_A )$ is
+strictly ordered, founded, or well-ordered, then $( B , <_B )$ will
 be as well.
 
 All well-ordered sets are isomorphic to a unique

@@ -14,7 +14,7 @@ book *Mathematics and the imagination*.
 
 ### Googol plex
 
-A *googol plex* is the number $10^{\\text{googol}}$, or $10^{10^{100}}$.
+A *googol plex* is the number $10^{\text{googol}}$, or $10^{10^{100}}$.
 In general, an $x$-plex is $10^x$.
 
   
@@ -32,7 +32,7 @@ $(10^{100})!$. In general, an "$x$-bang" means $x!$.
 
 A 'googol stack' is the number $10^{10^{10^{.^{.^.}}}}$, where the
 number of levels in the stack is a googol. This can also be represented
-$10\\uparrow\\uparrow\\text{googol}$ in the Knuth notation for iterated
+$10\uparrow\uparrow\text{googol}$ in the Knuth notation for iterated
 exponentials.
 
   
@@ -41,7 +41,7 @@ exponentials.
 
 The plex, bang and stack vocabulary enables one to name some very large
 numbers with ease, such as a *googol bang plex stack*, which is the
-exponential tower $10^{10^{\\cdot^{\\cdot^{^{10}}}}}$ of height
+exponential tower $10^{10^{\cdot^{\cdot^{^{10}}}}}$ of height
 $10^{(10^{100})!}$, or a googol stack bang stack bang, and so on.
 
 The *googol plex bang stack hierarchy* is the collection of numbers that

@@ -14,44 +14,44 @@ permalink: Fast-growing_hierarchy
 
 
 The fast-growing hierarchy is a family of increasing functions
-\\((f\_\\alpha:\\mathbb N\\rightarrow\\mathbb N)\_{\\alpha&lt;\\mu}\\)
-where \\(\\mu\\) is a large countable ordinal such that a fundamental
-sequence is assigned for each limit ordinal less than \\(\\mu\\). It
+\((f_\alpha:\mathbb N\rightarrow\mathbb N)_{\alpha<\mu}\)
+where \(\mu\) is a large countable ordinal such that a fundamental
+sequence is assigned for each limit ordinal less than \(\mu\). It
 maps countable ordinals to certain functions. The fast-growing hierarchy
 is defined as follows:
 
--   \\(f\_0(n)=n+1\\)
--   \\(f\_{\\alpha+1}(n)=f^n\_\\alpha(n)\\)
--   \\(f\_\\alpha(n)=f\_{\\alpha\[n\]}(n)\\) if and only if
-    \\(\\alpha\\) is a limit ordinal,
+-   \(f_0(n)=n+1\)
+-   \(f_{\alpha+1}(n)=f^n_\alpha(n)\)
+-   \(f_\alpha(n)=f_{\alpha\[n\]}(n)\) if and only if
+    \(\alpha\) is a limit ordinal,
 
 where:
 
--   \\(f^n\\) denotes function iteration i.e. \\(f\_\\alpha^0(n)=n\\)
-    and \\(f\_\\alpha^{m+1}(n)=f\_\\alpha(f\_\\alpha^{m}(n))\\)
--   \\(\\alpha\[n\]\\) denotes the \\(n\\)th element of the fundamental
-    sequence assigned to the limit ordinal \\(\\alpha\\)
+-   \(f^n\) denotes function iteration i.e. \(f_\alpha^0(n)=n\)
+    and \(f_\alpha^{m+1}(n)=f_\alpha(f_\alpha^{m}(n))\)
+-   \(\alpha\[n\]\) denotes the \(n\)th element of the fundamental
+    sequence assigned to the limit ordinal \(\alpha\)
 
 Every nonzero ordinal
-\\(\\alpha&lt;\\varepsilon\_0=\\min\\{\\beta\|\\beta=\\omega^\\beta\\}\\)
+\(\alpha<\varepsilon_0=\min\{\beta\|\beta=\omega^\beta\}\)
 can be represented in a unique Cantor normal form
-\\(\\alpha=\\omega^{\\beta\_{1}}+
-\\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\omega^{\\beta\_{k}}\\)
+\(\alpha=\omega^{\beta_{1}}+
+\omega^{\beta_{2}}+\cdots+\omega^{\beta_{k-1}}+\omega^{\beta_{k}}\)
 where
-\\(\\alpha&gt;\\beta\_1\\geq\\beta\_2\\geq\\cdots\\geq\\beta\_{k-1}\\geq\\beta\_k\\).
+\(\alpha>\beta_1\geq\beta_2\geq\cdots\geq\beta_{k-1}\geq\beta_k\).
 
-If \\(\\beta\_k&gt;0\\) then \\(\\alpha\\) is a limit and we can assign
+If \(\beta_k>0\) then \(\alpha\) is a limit and we can assign
 to it a fundamental sequence as follows
 
-\\(\\alpha\[n\]=\\omega^{\\beta\_{1}}+
-\\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\left\\{\\begin{array}{lcr}
-\\omega^\\gamma n \\text{ if } \\beta\_k=\\gamma+1\\\\
-\\omega^{\\beta\_k\[n\]} \\text{ if } \\beta\_k \\text{ is a limit.}\\\\
-\\end{array}\\right.\\)
+\(\alpha\[n\]=\omega^{\beta_{1}}+
+\omega^{\beta_{2}}+\cdots+\omega^{\beta_{k-1}}+\left\{\begin{array}{lcr}
+\omega^\gamma n \text{ if } \beta_k=\gamma+1\\
+\omega^{\beta_k\[n\]} \text{ if } \beta_k \text{ is a limit.}\\
+\end{array}\right.\)
 
   
-If \\(\\alpha=\\varepsilon\_0\\) then \\(\\alpha\[0\]=0\\) and
-\\(\\alpha\[n+1\]=\\omega^{\\alpha\[n\]}\\).
+If \(\alpha=\varepsilon_0\) then \(\alpha\[0\]=0\) and
+\(\alpha\[n+1\]=\omega^{\alpha\[n\]}\).
 
 This system of fundamental sequences gives us so-called Wainer hierarchy
 - the most well-known example of fast-growing hierarchy. There are much
@@ -72,169 +72,169 @@ pages:
 
 These calculations are based on
 [Diagonalization](Diagonalization "Diagonalization").
-There are a few things to note: "\\(\\uparrow\\)" means [Knuth's
+There are a few things to note: "\(\uparrow\)" means [Knuth's
 up-arrow
 notation](Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
-"\\(\\lbrace\\rbrace\\)" means
+"\(\lbrace\rbrace\)" means
 [BAN](Bird%27s_array_notation "Bird's array notation").
 
-\\begin{eqnarray\*} f\_0(n) &=& n + 1 \\\\ f\_1(n) &=& f\_0^n(n) = (
-\\cdots ((n + 1) + 1) + \\cdots + 1) = n + n = 2n \\\\ f\_2(n) &=&
-f\_1^n(n) = 2(2(\\ldots 2(2n))) = 2^n n &gt; 2 \\uparrow n \\\\ f\_3(n)
-&&gt;& 2\\uparrow\\uparrow n \\\\ f\_4(n) &&gt;&
-2\\uparrow\\uparrow\\uparrow n \\\\ f\_m(n) &&gt;& 2\\uparrow^{m-1} n
-\\\\ f\_\\omega(n) &&gt;& 2\\uparrow^{n-1} n = Ack(n) \\\\
-f\_{\\omega+1}(n) &&gt;& \\lbrace n,n,1,2 \\rbrace \\\\
-f\_{\\omega+2}(n) &&gt;& \\lbrace n,n,2,2 \\rbrace \\\\
-f\_{\\omega+m}(n) &&gt;& \\lbrace n,n,m,2 \\rbrace \\\\ f\_{\\omega2}(n)
-&&gt;& \\lbrace n,n,n,2 \\rbrace \\\\ f\_{\\omega3}(n) &&gt;& \\lbrace
-n,n,n,3 \\rbrace \\\\ f\_{\\omega m}(n) &&gt;& \\lbrace n,n,n,m \\rbrace
-\\\\ f\_{\\omega^2}(n) &&gt;& \\lbrace n,n,n,n \\rbrace \\\\
-f\_{\\omega^3}(n) &&gt;& \\lbrace n,n,n,n,n \\rbrace \\\\
-f\_{\\omega^m}(n) &&gt;& \\lbrace n,m+2 \[2\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega}}(n) &&gt;& \\lbrace n,n+2 \[2\] 2 \\rbrace &gt;
-\\lbrace n,n \[2\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega}+1}(n) &&gt;&
-\\lbrace n,n,2 \[2\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega}+2}(n) &&gt;&
-\\lbrace n,n,3 \[2\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega}+m}(n) &&gt;&
-\\lbrace n,n,m+1 \[2\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega}+\\omega}(n)
-&&gt;& \\lbrace n,n,n+1 \[2\] 2 \\rbrace &gt; \\lbrace n,n,n \[2\] 2
-\\rbrace \\\\ f\_{\\omega^{\\omega}+\\omega+1}(n) &&gt;& \\lbrace
-n,n,1,2 \[2\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega}+\\omega2}(n) &&gt;&
-\\lbrace n,n,n,2 \[2\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega}+\\omega^2}(n) &&gt;& \\lbrace n,n,n,n \[2\] 2
-\\rbrace \\\\ f\_{ {\\omega^{\\omega}}2}(n) &&gt;& \\lbrace n,n \[2\] 3
-\\rbrace \\\\ f\_{ {\\omega^{\\omega}}3}(n) &&gt;& \\lbrace n,n \[2\] 4
-\\rbrace \\\\ f\_{ {\\omega^{\\omega}}m}(n) &&gt;& \\lbrace n,n \[2\] m+1
-\\rbrace \\\\ f\_{\\omega^{\\omega+1}}(n) &&gt;& \\lbrace n,n \[2\] n+1
-\\rbrace &gt; \\lbrace n,n \[2\] n \\rbrace \\\\
-f\_{\\omega^{\\omega+2}}(n) &&gt;& \\lbrace n,n \[2\] n,n \\rbrace \\\\
-f\_{\\omega^{\\omega+3}}(n) &&gt;& \\lbrace n,n,n \[2\] n,n,n \\rbrace
-\\\\ f\_{\\omega^{\\omega+m}}(n) &&gt;& \\lbrace n,m \[2\] 1 \[2\] 2
-\\rbrace \\\\ f\_{\\omega^{\\omega2}}(n) &&gt;& \\lbrace n,n \[2\] 1
-\[2\] 2 \\rbrace = \\lbrace n,2 \[3\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega3}}(n) &&gt;& \\lbrace n,n \[2\] 1 \[2\] 1 \[2\] 2
-\\rbrace = \\lbrace n,3 \[3\] 2 \\rbrace \\\\ f\_{\\omega^{\\omega
-m}}(n) &&gt;& \\lbrace n,m \[3\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega^2}}(n) &&gt;& \\lbrace n,n \[3\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega^3}}(n) &&gt;& \\lbrace n,n \[4\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega^m}}(n) &&gt;& \\lbrace n,n \[m+1\] 2 \\rbrace \\\\
-f\_{\\omega^{\\omega^\\omega}}(n) &&gt;& \\lbrace n,n \[n+1\] 2 \\rbrace
-= \\lbrace n,n \[1,2\] 2 \\rbrace \\\\ f\_{^4{\\omega}}(n) &&gt;&
-\\lbrace n,n \[1 \[2\] 2\] 2 \\rbrace \\\\ f\_{^5{\\omega}}(n) &&gt;&
-\\lbrace n,n \[1 \[1,2\] 2\] 2 \\rbrace \\\\ f\_{^6{\\omega}}(n) &&gt;&
-\\lbrace n,n \[1 \[1 \[2\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0}(n) &&gt;& \\lbrace n,n \[ \[1\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_02}(n) &&gt;& \\lbrace n,n \[ \[1\]\] 3 \\rbrace \\\\
-f\_{\\varepsilon\_0m}(n) &&gt;& \\lbrace n,n \[ \[1\]\] m+1 \\rbrace
-\\\\ f\_{\\varepsilon\_0\\omega}(n) &&gt;& \\lbrace n,n \[ \[1\]\] n+1
-\\rbrace \\\\ f\_{\\varepsilon\_0{\\omega^{\\omega}}}(n) &&gt;& \\lbrace
-n,n \[ \[1\]\] 1 \[2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0{\\omega^{\\omega^{\\omega}}}}(n) &&gt;& \\lbrace n,n
-\[ \[1\]\] 1 \[1,2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0{\\omega^{\\omega^{\\omega^{\\omega}}}}}(n) &&gt;&
-\\lbrace n,n \[ \[1\]\] 1 \[1 \[2\] 2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^2}(n) &&gt;& \\lbrace n,n \[ \[1\]\] 1 \[ \[1\]\] 2
-\\rbrace \\\\ f\_{\\varepsilon\_0^3}(n) &&gt;& \\lbrace n,n \[ \[1\]\] 1
-\[ \[1\]\] 1 \[ \[1\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^{\\omega}}(n) &&gt;& \\lbrace n,n \[ \[2\]\] 2
-\\rbrace \\\\ f\_{\\varepsilon\_0^{\\omega^{\\omega}}}(n) &&gt;&
-\\lbrace n,n \[ \[1,2\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^{\\omega^{\\omega^{\\omega}}}}(n) &&gt;& \\lbrace
-n,n \[\[1 \[2\] 2\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^{\\varepsilon\_0}}(n) &&gt;& \\lbrace n,n \[\[1 \[
-\[1\]\] 2\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^{\\varepsilon\_0^{\\varepsilon\_0}}}(n) &&gt;&
-\\lbrace n,n \[\[1 \[ \[1\]\] 1 \[ \[1\]\] 2\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_0^{\\varepsilon\_0^{\\varepsilon\_0^{\\varepsilon\_0}}}}(n)
-&&gt;& \\lbrace n,n \[\[1 \[\[1 \[ \[1\]\] 2\]\] 2\]\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_1}(n) &&gt;& \\lbrace n,n \[\[\[1\]\]\] 2 \\rbrace
-\\\\ f\_{\\varepsilon\_2}(n) &&gt;& \\lbrace n,n \[\[\[ \[1\]\]\]\] 2
-\\rbrace \\\\ f\_{\\varepsilon\_{\\omega}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1,2\] 2 \\rbrace \\\\ f\_{\\varepsilon\_{\\omega^2}}(n)
-&&gt;& \\lbrace n,n \[1\\backslash1,1,2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\omega^{\\omega}}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1 \[2\] 2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\omega^{\\omega^{\\omega}}}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1 \[1,2\] 2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\varepsilon\_0}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1 \[ \[1\]\] 2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\varepsilon\_{\\varepsilon\_0}}}(n) &&gt;& \\lbrace
-n,n \[1\\backslash1 \[1\\backslash1 \[ \[1\]\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\zeta\_0}(n) &&gt;& \\lbrace n,n \[1\\backslash1\\backslash2\] 2
-\\rbrace \\\\ f\_{\\zeta\_0^{\\zeta\_0}}(n) &&gt;& \\lbrace n,n \[1
-\[1\\backslash1\\backslash2\] 2\\backslash1\\backslash2\] 2 \\rbrace
-\\\\ f\_{\\varepsilon\_{\\zeta\_0+1}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash2\\backslash2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\zeta\_0+2}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash3\\backslash2\] 2 \\rbrace \\\\
-f\_{\\varepsilon\_{\\varepsilon\_{\\zeta\_0+1}}} &&gt;& \\lbrace n,n
-\[1\\backslash1 \[1\\backslash2\\backslash2\] 2\\backslash2\] 2 \\rbrace
-\\\\ f\_{\\zeta\_1}(n) &&gt;& \\lbrace n,n \[1\\backslash1\\backslash3\]
-2 \\rbrace \\\\ f\_{\\zeta\_2}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1\\backslash4\] 2 \\rbrace \\\\
-f\_{\\zeta\_{\\zeta\_0}}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1\\backslash1 \[1\\backslash1\\backslash2\] 2\] 2 \\rbrace
-\\\\ f\_{\\eta\_0}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1\\backslash1\\backslash2\] 2 \\rbrace \\\\
-f\_{\\varphi(4,0)}(n) &&gt;& \\lbrace n,n
-\[1\\backslash1\\backslash1\\backslash1\\backslash2\] 2 \\rbrace \\\\
-f\_{\\varphi(\\omega,0)}(n) &&gt;& \\lbrace n,n \[1 \[2\]\\backslash2\]
-2 \\rbrace \\\\ f\_{\\varphi(\\varphi(\\omega,0),0)}(n) &&gt;& \\lbrace
-n,n \[1 \[1 \[1 \[2\]\\backslash2\]\\backslash2\] 2\] 2 \\rbrace \\\\
-f\_{\\Gamma\_0}(n) &&gt;& \\lbrace n,n \[1/2\] 2 \\rbrace \\\\
-f\_{\\varphi(1,0,0,0)}(n) &&gt;& \\lbrace n,n \[1 \[1\\neg4\] 2\] 2
-\\rbrace \\\\ f\_{\\vartheta(\\Omega^{\\omega})}(n) &&gt;& \\lbrace n,n
-\[1 \[1\\neg1,2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega^{\\Omega})}(n) &&gt;& \\lbrace n,n \[1
-\[1\\neg1\\neg2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega^{\\Omega^{\\Omega}})}(n) &&gt;& \\lbrace n,n \[1
-\[1 \[1\\backslash\_33\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\vartheta\_1(1))}(n) &&gt;& \\lbrace n,n \[1 \[1\\sim3\]
-2\] 2 \\rbrace \\\\ f\_{\\vartheta(\\vartheta\_1(2))}(n) &&gt;& \\lbrace
-n,n \[1 \[1\\sim1\\sim2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\vartheta\_1(\\omega))}(n) &&gt;& \\lbrace n,n \[1 \[1
-\[2/\_32\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\vartheta\_1(\\Omega))}(n) &&gt;& \\lbrace n,n \[1 \[1
-\[1/2/\_32\] 2\] 2\] 2 \\rbrace \\\\ f\_{\\vartheta(\\Omega\_2)}(n)
-&&gt;& \\lbrace n,n \[1 \[1 \[1\\sim2/\_32\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_3)}(n) &&gt;& \\lbrace n,n \[1 \[1 \[1
-\[1/\_32/\_42\] 2\] 2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\omega})}(n) &&gt;& \\lbrace n,n
-\[1\\bullet2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\varepsilon\_0})}(n) &&gt;& \\lbrace n,n \[1
-\[2/\_{1 \[1\\backslash2\] 2}2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\Gamma\_0})}(n) &&gt;& \\lbrace n,n \[1
-\[2/\_{1 \[1/2\] 2}2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_2)})}(n) &&gt;& \\lbrace
-n,n \[1 \[2/\_{1 \[1 \[1 \[1\\sim2/\_32\] 2\] 2\] 2}2\] 2\] 2 \\rbrace
-\\\\ f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_3)})}(n) &&gt;&
-\\lbrace n,n \[1 \[2/\_{1 \[1 \[1 \[1 \[1/\_32/\_42\] 2\] 2\] 2\] 2}2\]
-2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\omega})})}(n) &&gt;&
-\\lbrace n,n \[1 \[2/\_{1 \[1\\bullet2\] 2}2\] 2\] 2 \\rbrace \\\\
-f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\omega})})})}(n)
-&&gt;& \\lbrace n,n \[1 \[2/\_{1 \[2/\_{1 \[1\\bullet2\] 2}2\] 2}2\] 2\]
-2 \\rbrace \\end{eqnarray\*}
+\begin{eqnarray*} f_0(n) &=& n + 1 \\ f_1(n) &=& f_0^n(n) = (
+\cdots ((n + 1) + 1) + \cdots + 1) = n + n = 2n \\ f_2(n) &=&
+f_1^n(n) = 2(2(\ldots 2(2n))) = 2^n n > 2 \uparrow n \\ f_3(n)
+&>& 2\uparrow\uparrow n \\ f_4(n) &>&
+2\uparrow\uparrow\uparrow n \\ f_m(n) &>& 2\uparrow^{m-1} n
+\\ f_\omega(n) &>& 2\uparrow^{n-1} n = Ack(n) \\
+f_{\omega+1}(n) &>& \lbrace n,n,1,2 \rbrace \\
+f_{\omega+2}(n) &>& \lbrace n,n,2,2 \rbrace \\
+f_{\omega+m}(n) &>& \lbrace n,n,m,2 \rbrace \\ f_{\omega2}(n)
+&>& \lbrace n,n,n,2 \rbrace \\ f_{\omega3}(n) &>& \lbrace
+n,n,n,3 \rbrace \\ f_{\omega m}(n) &>& \lbrace n,n,n,m \rbrace
+\\ f_{\omega^2}(n) &>& \lbrace n,n,n,n \rbrace \\
+f_{\omega^3}(n) &>& \lbrace n,n,n,n,n \rbrace \\
+f_{\omega^m}(n) &>& \lbrace n,m+2 \[2\] 2 \rbrace \\
+f_{\omega^{\omega}}(n) &>& \lbrace n,n+2 \[2\] 2 \rbrace >
+\lbrace n,n \[2\] 2 \rbrace \\ f_{\omega^{\omega}+1}(n) &>&
+\lbrace n,n,2 \[2\] 2 \rbrace \\ f_{\omega^{\omega}+2}(n) &>&
+\lbrace n,n,3 \[2\] 2 \rbrace \\ f_{\omega^{\omega}+m}(n) &>&
+\lbrace n,n,m+1 \[2\] 2 \rbrace \\ f_{\omega^{\omega}+\omega}(n)
+&>& \lbrace n,n,n+1 \[2\] 2 \rbrace > \lbrace n,n,n \[2\] 2
+\rbrace \\ f_{\omega^{\omega}+\omega+1}(n) &>& \lbrace
+n,n,1,2 \[2\] 2 \rbrace \\ f_{\omega^{\omega}+\omega2}(n) &>&
+\lbrace n,n,n,2 \[2\] 2 \rbrace \\
+f_{\omega^{\omega}+\omega^2}(n) &>& \lbrace n,n,n,n \[2\] 2
+\rbrace \\ f_{ {\omega^{\omega}}2}(n) &>& \lbrace n,n \[2\] 3
+\rbrace \\ f_{ {\omega^{\omega}}3}(n) &>& \lbrace n,n \[2\] 4
+\rbrace \\ f_{ {\omega^{\omega}}m}(n) &>& \lbrace n,n \[2\] m+1
+\rbrace \\ f_{\omega^{\omega+1}}(n) &>& \lbrace n,n \[2\] n+1
+\rbrace > \lbrace n,n \[2\] n \rbrace \\
+f_{\omega^{\omega+2}}(n) &>& \lbrace n,n \[2\] n,n \rbrace \\
+f_{\omega^{\omega+3}}(n) &>& \lbrace n,n,n \[2\] n,n,n \rbrace
+\\ f_{\omega^{\omega+m}}(n) &>& \lbrace n,m \[2\] 1 \[2\] 2
+\rbrace \\ f_{\omega^{\omega2}}(n) &>& \lbrace n,n \[2\] 1
+\[2\] 2 \rbrace = \lbrace n,2 \[3\] 2 \rbrace \\
+f_{\omega^{\omega3}}(n) &>& \lbrace n,n \[2\] 1 \[2\] 1 \[2\] 2
+\rbrace = \lbrace n,3 \[3\] 2 \rbrace \\ f_{\omega^{\omega
+m}}(n) &>& \lbrace n,m \[3\] 2 \rbrace \\
+f_{\omega^{\omega^2}}(n) &>& \lbrace n,n \[3\] 2 \rbrace \\
+f_{\omega^{\omega^3}}(n) &>& \lbrace n,n \[4\] 2 \rbrace \\
+f_{\omega^{\omega^m}}(n) &>& \lbrace n,n \[m+1\] 2 \rbrace \\
+f_{\omega^{\omega^\omega}}(n) &>& \lbrace n,n \[n+1\] 2 \rbrace
+= \lbrace n,n \[1,2\] 2 \rbrace \\ f_{^4{\omega}}(n) &>&
+\lbrace n,n \[1 \[2\] 2\] 2 \rbrace \\ f_{^5{\omega}}(n) &>&
+\lbrace n,n \[1 \[1,2\] 2\] 2 \rbrace \\ f_{^6{\omega}}(n) &>&
+\lbrace n,n \[1 \[1 \[2\] 2\] 2\] 2 \rbrace \\
+f_{\varepsilon_0}(n) &>& \lbrace n,n \[ \[1\]\] 2 \rbrace \\
+f_{\varepsilon_02}(n) &>& \lbrace n,n \[ \[1\]\] 3 \rbrace \\
+f_{\varepsilon_0m}(n) &>& \lbrace n,n \[ \[1\]\] m+1 \rbrace
+\\ f_{\varepsilon_0\omega}(n) &>& \lbrace n,n \[ \[1\]\] n+1
+\rbrace \\ f_{\varepsilon_0{\omega^{\omega}}}(n) &>& \lbrace
+n,n \[ \[1\]\] 1 \[2\] 2 \rbrace \\
+f_{\varepsilon_0{\omega^{\omega^{\omega}}}}(n) &>& \lbrace n,n
+\[ \[1\]\] 1 \[1,2\] 2 \rbrace \\
+f_{\varepsilon_0{\omega^{\omega^{\omega^{\omega}}}}}(n) &>&
+\lbrace n,n \[ \[1\]\] 1 \[1 \[2\] 2\] 2 \rbrace \\
+f_{\varepsilon_0^2}(n) &>& \lbrace n,n \[ \[1\]\] 1 \[ \[1\]\] 2
+\rbrace \\ f_{\varepsilon_0^3}(n) &>& \lbrace n,n \[ \[1\]\] 1
+\[ \[1\]\] 1 \[ \[1\]\] 2 \rbrace \\
+f_{\varepsilon_0^{\omega}}(n) &>& \lbrace n,n \[ \[2\]\] 2
+\rbrace \\ f_{\varepsilon_0^{\omega^{\omega}}}(n) &>&
+\lbrace n,n \[ \[1,2\]\] 2 \rbrace \\
+f_{\varepsilon_0^{\omega^{\omega^{\omega}}}}(n) &>& \lbrace
+n,n \[\[1 \[2\] 2\]\] 2 \rbrace \\
+f_{\varepsilon_0^{\varepsilon_0}}(n) &>& \lbrace n,n \[\[1 \[
+\[1\]\] 2\]\] 2 \rbrace \\
+f_{\varepsilon_0^{\varepsilon_0^{\varepsilon_0}}}(n) &>&
+\lbrace n,n \[\[1 \[ \[1\]\] 1 \[ \[1\]\] 2\]\] 2 \rbrace \\
+f_{\varepsilon_0^{\varepsilon_0^{\varepsilon_0^{\varepsilon_0}}}}(n)
+&>& \lbrace n,n \[\[1 \[\[1 \[ \[1\]\] 2\]\] 2\]\] 2 \rbrace \\
+f_{\varepsilon_1}(n) &>& \lbrace n,n \[\[\[1\]\]\] 2 \rbrace
+\\ f_{\varepsilon_2}(n) &>& \lbrace n,n \[\[\[ \[1\]\]\]\] 2
+\rbrace \\ f_{\varepsilon_{\omega}}(n) &>& \lbrace n,n
+\[1\backslash1,2\] 2 \rbrace \\ f_{\varepsilon_{\omega^2}}(n)
+&>& \lbrace n,n \[1\backslash1,1,2\] 2 \rbrace \\
+f_{\varepsilon_{\omega^{\omega}}}(n) &>& \lbrace n,n
+\[1\backslash1 \[2\] 2\] 2 \rbrace \\
+f_{\varepsilon_{\omega^{\omega^{\omega}}}}(n) &>& \lbrace n,n
+\[1\backslash1 \[1,2\] 2\] 2 \rbrace \\
+f_{\varepsilon_{\varepsilon_0}}(n) &>& \lbrace n,n
+\[1\backslash1 \[ \[1\]\] 2\] 2 \rbrace \\
+f_{\varepsilon_{\varepsilon_{\varepsilon_0}}}(n) &>& \lbrace
+n,n \[1\backslash1 \[1\backslash1 \[ \[1\]\] 2\] 2\] 2 \rbrace \\
+f_{\zeta_0}(n) &>& \lbrace n,n \[1\backslash1\backslash2\] 2
+\rbrace \\ f_{\zeta_0^{\zeta_0}}(n) &>& \lbrace n,n \[1
+\[1\backslash1\backslash2\] 2\backslash1\backslash2\] 2 \rbrace
+\\ f_{\varepsilon_{\zeta_0+1}}(n) &>& \lbrace n,n
+\[1\backslash2\backslash2\] 2 \rbrace \\
+f_{\varepsilon_{\zeta_0+2}}(n) &>& \lbrace n,n
+\[1\backslash3\backslash2\] 2 \rbrace \\
+f_{\varepsilon_{\varepsilon_{\zeta_0+1}}} &>& \lbrace n,n
+\[1\backslash1 \[1\backslash2\backslash2\] 2\backslash2\] 2 \rbrace
+\\ f_{\zeta_1}(n) &>& \lbrace n,n \[1\backslash1\backslash3\]
+2 \rbrace \\ f_{\zeta_2}(n) &>& \lbrace n,n
+\[1\backslash1\backslash4\] 2 \rbrace \\
+f_{\zeta_{\zeta_0}}(n) &>& \lbrace n,n
+\[1\backslash1\backslash1 \[1\backslash1\backslash2\] 2\] 2 \rbrace
+\\ f_{\eta_0}(n) &>& \lbrace n,n
+\[1\backslash1\backslash1\backslash2\] 2 \rbrace \\
+f_{\varphi(4,0)}(n) &>& \lbrace n,n
+\[1\backslash1\backslash1\backslash1\backslash2\] 2 \rbrace \\
+f_{\varphi(\omega,0)}(n) &>& \lbrace n,n \[1 \[2\]\backslash2\]
+2 \rbrace \\ f_{\varphi(\varphi(\omega,0),0)}(n) &>& \lbrace
+n,n \[1 \[1 \[1 \[2\]\backslash2\]\backslash2\] 2\] 2 \rbrace \\
+f_{\Gamma_0}(n) &>& \lbrace n,n \[1/2\] 2 \rbrace \\
+f_{\varphi(1,0,0,0)}(n) &>& \lbrace n,n \[1 \[1\neg4\] 2\] 2
+\rbrace \\ f_{\vartheta(\Omega^{\omega})}(n) &>& \lbrace n,n
+\[1 \[1\neg1,2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega^{\Omega})}(n) &>& \lbrace n,n \[1
+\[1\neg1\neg2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega^{\Omega^{\Omega}})}(n) &>& \lbrace n,n \[1
+\[1 \[1\backslash_33\] 2\] 2\] 2 \rbrace \\
+f_{\vartheta(\vartheta_1(1))}(n) &>& \lbrace n,n \[1 \[1\sim3\]
+2\] 2 \rbrace \\ f_{\vartheta(\vartheta_1(2))}(n) &>& \lbrace
+n,n \[1 \[1\sim1\sim2\] 2\] 2 \rbrace \\
+f_{\vartheta(\vartheta_1(\omega))}(n) &>& \lbrace n,n \[1 \[1
+\[2/_32\] 2\] 2\] 2 \rbrace \\
+f_{\vartheta(\vartheta_1(\Omega))}(n) &>& \lbrace n,n \[1 \[1
+\[1/2/_32\] 2\] 2\] 2 \rbrace \\ f_{\vartheta(\Omega_2)}(n)
+&>& \lbrace n,n \[1 \[1 \[1\sim2/_32\] 2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega_3)}(n) &>& \lbrace n,n \[1 \[1 \[1
+\[1/_32/_42\] 2\] 2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\omega})}(n) &>& \lbrace n,n
+\[1\bullet2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\varepsilon_0})}(n) &>& \lbrace n,n \[1
+\[2/_{1 \[1\backslash2\] 2}2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\Gamma_0})}(n) &>& \lbrace n,n \[1
+\[2/_{1 \[1/2\] 2}2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\vartheta(\Omega_2)})}(n) &>& \lbrace
+n,n \[1 \[2/_{1 \[1 \[1 \[1\sim2/_32\] 2\] 2\] 2}2\] 2\] 2 \rbrace
+\\ f_{\vartheta(\Omega_{\vartheta(\Omega_3)})}(n) &>&
+\lbrace n,n \[1 \[2/_{1 \[1 \[1 \[1 \[1/_32/_42\] 2\] 2\] 2\] 2}2\]
+2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\vartheta(\Omega_{\omega})})}(n) &>&
+\lbrace n,n \[1 \[2/_{1 \[1\bullet2\] 2}2\] 2\] 2 \rbrace \\
+f_{\vartheta(\Omega_{\vartheta(\Omega_{\vartheta(\Omega_{\omega})})})}(n)
+&>& \lbrace n,n \[1 \[2/_{1 \[2/_{1 \[1\bullet2\] 2}2\] 2}2\] 2\]
+2 \rbrace \end{eqnarray*}
 
 ## The relationship with other hierarhies
 
-For \\(\\alpha&lt;\\varepsilon\_0\\) the fast-growing hierarchy relates
+For \(\alpha<\varepsilon_0\) the fast-growing hierarchy relates
 to the [Hardy
 hierarchy](Hardy_hierarchy "Hardy hierarchy")
 as follows
 
-\\(f\_\\alpha(n)=H\_{\\omega^\\alpha}(n)\\)
+\(f_\alpha(n)=H_{\omega^\alpha}(n)\)
 
-and at \\(\\varepsilon\_0\\) the Hardy hierarchy "catches up" to the
+and at \(\varepsilon_0\) the Hardy hierarchy "catches up" to the
 fast-growing hierarchy i.e.
 
-\\(f\_{\\varepsilon\_0}(n-1) ≤ H\_{\\varepsilon\_0}(n) ≤
-f\_{\\varepsilon\_0}(n+1)\\) for all \\(n ≥ 1\\).
+\(f_{\varepsilon_0}(n-1) ≤ H_{\varepsilon_0}(n) ≤
+f_{\varepsilon_0}(n+1)\) for all \(n ≥ 1\).
 
 The [slow-growing
 hierarchy](Slow-growing_hierarchy "Slow-growing hierarchy")
 "catches up" to the fast-growing hierarchy at
-\\(\\psi\_0(\\Omega\_\\omega)\\), using [Buchholz's ψ
+\(\psi_0(\Omega_\omega)\), using [Buchholz's ψ
 functions](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions").
 
 

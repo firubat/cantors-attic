@@ -20,27 +20,27 @@ ascent.
 -   The ordinals of [infinite time Turing
     machines](Infinite_time_Turing_machines "Infinite time Turing machines"),
     including
-    -   [$\\Sigma$](Infinite_time_Turing_machines#Sigma "Infinite time Turing machines")
+    -   [$\Sigma$](Infinite_time_Turing_machines#Sigma "Infinite time Turing machines")
         = the supremum of the accidentally writable ordinals
-    -   [$\\zeta$](Infinite_time_Turing_machines#zeta "Infinite time Turing machines")
+    -   [$\zeta$](Infinite_time_Turing_machines#zeta "Infinite time Turing machines")
         = the supremum of the eventually writable ordinals
-    -   [$\\lambda$](Infinite_time_Turing_machines#lambda "Infinite time Turing machines")
+    -   [$\lambda$](Infinite_time_Turing_machines#lambda "Infinite time Turing machines")
         = the supremum of the writable ordinals,
 -   [admissible](Admissible "Admissible")
     ordinals and [relativized Church-Kleene
-    $\\omega\_1^x$](Church-Kleene#relativized_Church-Kleene_ordinal "Church-Kleene")
+    $\omega_1^x$](Church-Kleene#relativized_Church-Kleene_ordinal "Church-Kleene")
 -   [Church-Kleene
-    $\\omega\_1^{ck}$](Church-Kleene "Church-Kleene"),
+    $\omega_1^{ck}$](Church-Kleene "Church-Kleene"),
     the supremum of the computable ordinals
 -   the [omega one of
     chess](Omega_one_chess "Omega one chess")
-    -   [$\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$](Omega_one_chess "Omega one chess")
+    -   [$\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}$](Omega_one_chess "Omega one chess")
         = the supremum of the game values for white of all positions in
         infinite chess
-    -   [$\\omega\_1^{\\mathfrak{Ch},c}$](Omega_one_chess "Omega one chess")
+    -   [$\omega_1^{\mathfrak{Ch},c}$](Omega_one_chess "Omega one chess")
         = the supremum of the game values for white of the computable
         positions in infinite chess
-    -   [$\\omega\_1^{\\mathfrak{Ch}}$](Omega_one_chess "Omega one chess")
+    -   [$\omega_1^{\mathfrak{Ch}}$](Omega_one_chess "Omega one chess")
         = the supremum of the game values for white of the finite
         positions in infinite chess
 -   the
@@ -60,23 +60,23 @@ ascent.
 -   the
     [Feferman-Schütte](Feferman-Sch%C3%BCtte "Feferman-Schütte")
     ordinal
-    [$\\Gamma\_0$](Feferman-Sch%C3%BCtte "Feferman-Schütte")
--   [$\\epsilon\_0$](Epsilon_naught "Epsilon naught")
-    and the hierarchy of [$\\epsilon\_\\alpha$
+    [$\Gamma_0$](Feferman-Sch%C3%BCtte "Feferman-Schütte")
+-   [$\epsilon_0$](Epsilon_naught "Epsilon naught")
+    and the hierarchy of [$\epsilon_\alpha$
     numbers](Epsilon_naught#epsilon_numbers "Epsilon naught")
 -   <a href="Indecomposable" class="mw-redirect" title="Indecomposable">indecomposable</a>
     ordinal
 -   the [small countable
     ordinals](Small_countable_ordinals "Small countable ordinals"),
-    such as [$\\omega,\\omega+1,\\ldots,\\omega\\cdot
-    2,\\ldots,\\omega^2,\\ldots,\\omega^\\omega,\\ldots,\\omega^{\\omega^\\omega},\\ldots$](Small_countable_ordinals "Small countable ordinals")
+    such as [$\omega,\omega+1,\ldots,\omega\cdot
+    2,\ldots,\omega^2,\ldots,\omega^\omega,\ldots,\omega^{\omega^\omega},\ldots$](Small_countable_ordinals "Small countable ordinals")
     up to
-    [$\\epsilon\_0$](Epsilon_naught "Epsilon naught")
+    [$\epsilon_0$](Epsilon_naught "Epsilon naught")
 -   [Hilbert's
     hotel](Playroom#Hilbert.27s_Grand_Hotel "Playroom")
     and other toys in the
     [playroom](Playroom "Playroom")
--   [$\\omega$](Omega "Omega"),
+-   [$\omega$](Omega "Omega"),
     the smallest infinity
 -   down to the
     [parlour](Parlour "Parlour"),

@@ -16,11 +16,11 @@ permalink: Monotone
   
 Monotonicity is a property of functions.
 
-A function $f$ is monotone if and only if when $x \\le y \\implies f(x)
-\\le f(y)$, for all $x$ and $y$ in the domain of $f$.
+A function $f$ is monotone if and only if when $x \le y \implies f(x)
+\le f(y)$, for all $x$ and $y$ in the domain of $f$.
 
 A function $f$ is strictly monotone if and only if, for all $x$ and $y$
-in the domain of $f$, $x \\lt y \\implies f(x) \\lt f(y)$. All strictly
+in the domain of $f$, $x \lt y \implies f(x) \lt f(y)$. All strictly
 monotone functions are monotone, but not vice versa.
 
 A function $f$ is called a strictly monotone ordinal function if and
@@ -32,7 +32,7 @@ number, and its range is a subset of the ordinals.
 
 All strictly monotone functions are injective.
 
-If $f$ is a strictly monotone ordinal function, then $x \\le f(x)$ for
+If $f$ is a strictly monotone ordinal function, then $x \le f(x)$ for
 any $x$ in the domain of $f$.
 
 If $f$ provides an
